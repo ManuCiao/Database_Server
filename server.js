@@ -17,7 +17,7 @@ app.get('/set', function(req, res) {
     fs.writeFile('db.json', JSON.stringify(db), function(err) {
         if (err) throw err;
         res.send('Data successfully saved on the db.json file');
-        res.end(logs.join(','));
+        res.end(logs.join(', '));
     });
 });
 
