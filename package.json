@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ManuCiao/Database_Server#readme",
   "dependencies": {
-    "http": "0.0.0"
+    "express": "^4.14.0",
+    "fs": "0.0.1-security"
   }
 }
